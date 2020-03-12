@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Three</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <style>
+        
+        body
+        {
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', Helvetica, arial, sans-serif;
+            background: radial-gradient(#4E4342,#161616);
+            color: #ccc;
+        }
+
+        h1,h2,h5
+        {
+            font-weight: 600;
+        }
+
+        .icons
+        {
+            display: flex;
+            width: 200px;
+            justify-content: space-around;
+            color: #ccc;
+            font-size: 20px;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .fab
+        {
+            color: #ccc;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            transition: all 0.5s ease;
+        }
+
+        .fab:hover
+        {
+            background-color: #ec3237;
+            color: white;
+            border-color: #ec3237;
+        }
+
+        #portofolio
+        {
+            position: fixed;
+            bottom: 5%;
+            right: 5%;
+            padding: 20px 25px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.5s ease;
+        }
+
+        #portofolio:hover
+        {
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+        }
+
+        @media screen and (max-width: 768px) 
+        {
+            .data
+            {
+                padding: 25px;
+            }
+
+            .icons
+            {
+                margin: auto;
+            }   
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="col-md-12">
+                <h1>ABOUT ME</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+         
+            <img src="./images/team-bw-3.jpg" class="col-md-7 col-lg-6 col-xl-5" alt="Mohmoud Tarek">
+            
+            <div class="data col-md-5 col-lg-6 col-xl-7">
+                <h2>Salman Atef</h2>
+                <h5>Backend Developer</h5>
+                <h6>222 222-2222</h6>
+                <p class="py-3">London based frontend developer and designer aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br/><br/>
+                    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.<br /><br/>
+                    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper nisi. Nam eget dui. Etiam rhoncus.
+                </p>
+
+                <div class="icons">
+
+                    <a href="https://www.instagram.com/page3" target="_blank"><i class="fab fa-instagram"></i></a>
+                            
+                    <a href="https://www.facebook.com/page3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    
+                    <a href="https://www.twitter.com/page3" target="_blank"><i class="fab fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <a id="portofolio" href="./index.html">Portofolio</a>
+
+</body>
+</html>
